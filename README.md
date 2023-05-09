@@ -10,5 +10,5 @@ one.md文件中引用了two.md.
 - 背景: 代码中使用了@component的别名替代./src/md-component文件夹路径, 为了ide能够提示正确, 我们会给tsconfig.json里配置paths, 为了webpack打包编译能够正常通过, 我们会在Webpack配置alias.
 - **需求:**: 写一个plugins, 能够在webpack打包时, 动态读取tsconfig.json中的paths数据, 作为alias的配置. 使别名路径不需要同时在tsconfig.json和webpack.base.config中都配置一次
 
-## 实战题通过条件:
+## 实战通过条件:
 页面能够正确展示two.md中的组件内容.
