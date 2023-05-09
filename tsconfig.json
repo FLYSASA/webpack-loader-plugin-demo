@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "skipLibCheck": true,
+      "sourceMap": false,
+      "outDir": "./dist",
+      "noImplicitAny": false,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "removeComments": false,
+      "allowSyntheticDefaultImports": true,
+      "target": "es5",
+      "jsx":"preserve",
+      "allowJs": true,
+      "lib": [
+        "esnext",
+        "dom"
+      ],
+      "paths": {
+        "@component/*": ["./src/md-component/*"]
+      }
+    },
+    "exclude": [
+      "node_modules"
+    ]
+}
+  
